@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RECEBA</title>
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
 </head>
 <body>
 
     <h1>BENIVINDORECEBA</h1>
 
-    <ol>
+    <ul>
 
         <li>BRA</li>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png"
@@ -61,6 +62,39 @@
             <li>Valp</li>
             <li>Conce</li>
         </ol>
-    </ol>
+    </ul>
+
+    <br>
+
+    <label for="name">Nome (1 a 15 caracteres):</label>
+    <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="1"
+        maxlength="15"
+        size="10" />
+
+    <br>
+    <br>
+    <br>
+
+    <label for="email">Email:</label>
+    <input 
+        type="email" 
+        id="email" 
+        pattern=".+@example\.com" 
+        size="30" required />
+
+    <br>
+    <br>
+    <br>
+
+    <input 
+        class="styled" 
+        type="button" 
+        value="Confirmar" />
+
 </body>
 </html>
