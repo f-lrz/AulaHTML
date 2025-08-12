@@ -3,60 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RECEBA</title>
-    <link rel="icon" href="favicon-32x32.png" type="image/png">
+    <title>CADASTRO</title>
+    <link rel="icon" href="fifaicon.png" type="image/png">
 </head>
 <body>
 
-    <h1>BENIVINDORECEBA</h1>
+    <h1>Tabela de Clubes</h1>
 
     <ul>
 
-        <li>BRA</li>
+        <li>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png"
             alt="Brazil Flag" 
-            style="width: 22px; height: 15px;"
-        />
+            style="width: 22px; height: 15px;"/>
+        <a href="brasil.html">BRA</a>
+        </li>
         <ol type="I">
             <li>Fla</li>
             <li>Pal</li>
             <li>Cam</li>
         </ol>
 
-        <li>ARG</li>
+        <br>
+
+        <li>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/22px-Flag_of_Argentina.svg.png" 
-        alt="Argentina Flag" 
-        style="width: 22px; height: 15px;">
+            alt="Argentina Flag" 
+            style="width: 22px; height: 15px;">
+        <a href="argentina.html">AFA</a>
+        </li>
         <ol type="I">
             <li>Ros</li>
             <li>San</li>
             <li>Bel</li>
         </ol>
+        
+        <br>
 
-        <li>URU</li>
+        <li>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/22px-Flag_of_Uruguay.svg.png"
-        alt="Uruguay Flag" 
-        style="width: 22px; height: 15px;">
+            alt="Uruguay Flag" 
+            style="width: 22px; height: 15px;">
+        <a href="uruguai.html">AUF</a>
+        </li>
         <ol type="I">
             <li>Mon</li>
             <li>Sal</li>
             <li>Col</li>
         </ol>
+        
+        <br>
 
-        <li>PAR</li>
+        <li>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/22px-Flag_of_Paraguay.svg.png" 
-        alt="Paraguay Flag" 
-        style="width: 22px; height: 15px;">
+            alt="Paraguay Flag" 
+            style="width: 22px; height: 15px;">
+        <a href="paraguai.html">APF</a>
+        </li>
         <ol type="I">
             <li>Asu</li>
             <li>Enc</li>
             <li>Con</li>
         </ol>
+        
+        <br>
 
-        <li>CHI</li>
+        <li>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/22px-Flag_of_Chile.svg.png" 
-        alt="Chile Flag" 
-        style="width: 22px; height: 15px;">
+            alt="Chile Flag" 
+            style="width: 22px; height: 15px;">
+        <a href="chile.html">FFC</a>
+        </li>
         <ol type="I">
             <li>Sant</li>
             <li>Valp</li>
@@ -78,7 +95,6 @@
 
     <br>
     <br>
-    <br>
 
     <label for="email">Email:</label>
     <input 
@@ -88,6 +104,18 @@
         size="30" required />
 
     <br>
+    <br>
+
+    <label for="nome">Clube:</label>
+    <input 
+        type="text" 
+        id="name" 
+        name="name"
+        size="30" required
+        minlength="1"
+        maxlength="3"
+        size="10" />
+
     <br>
     <br>
 
